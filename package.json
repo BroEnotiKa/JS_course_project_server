@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "path": "^0.12.7",
     "fs": "^0.0.1-security",
-    "cors": "^2.8.5"
+    "path": "^0.12.7"
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "postinstall": "npm install"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
